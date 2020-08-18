@@ -1,0 +1,14 @@
+body{
+	background-color: #f09ae9;
+}
+
+img {
+	/*margin-top: 5em;
+	display: block;
+    margin-left: 17em;*/
+    /*vertical-align: middle; */
+}
+.container {
+    align-items: center;
+    margin-top: 0;
+}
