@@ -10,6 +10,11 @@ img {
     /*vertical-align: middle; */
 }
 
+img:hover{
+	transform: rotateY(180deg);
+	perspective: 1000px;
+}
+
 .topnav{
 	overflow: hidden;
 }
@@ -30,6 +35,15 @@ img {
 .navright a {
 	text-decoration: none;
 	color: #005086;
+	margin-left: 1em;
+}
+
+.navright a:hover{
+	background-color: #ffe78f;
+	border-style: solid;
+	padding: 10px;
+    box-shadow: 5px 10px;
+
 }
 
 .center{
@@ -41,7 +55,7 @@ img {
 	padding-left: 3em;
 }
 
-p {
+.byuah {
 	font-size: 2.5em;
 	font-weight: bold;
 }
@@ -49,5 +63,34 @@ p {
 h2 {
 	text-align: center;
 	margin-top: 0;
+}
+
+p{
+	font-size: 1.5em;
+	margin-left: 0.75em;
+}
+
+#bars {
+	margin: 2em auto;
+	max-width: 960px;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
 }
 
