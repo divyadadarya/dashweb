@@ -1,6 +1,8 @@
 body{
 	background: linear-gradient(to left, #0a97b0, #ffd3e1); 
 	font: 600 'Raleway', sans-serif;
+	cursor: default;
+	margin: 1em;
 }
 
 .topnav{
@@ -32,4 +34,15 @@ body{
 	padding: 10px;
     box-shadow: 5px 10px;
 
+}
+
+.bold {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #005086;
+}
+
+.font{
+	font-size: 1.2em;
 }

@@ -1,6 +1,7 @@
 body{
 	background: linear-gradient(to left, #0a97b0, #ffd3e1); 
 	font: 600 'Raleway', sans-serif;
+	cursor: default;
 }
 
 img {
@@ -70,6 +71,12 @@ p{
 	margin-left: 0.75em;
 }
 
+.gift{
+	display: flex;
+	align-items: center;
+	padding: 1em;
+}
+
 #bars {
 	margin: 2em auto;
 	max-width: 960px;
@@ -94,3 +101,27 @@ p{
 	margin: 0.7em auto;
 }
 
+.bold{
+	font-size: 1.7em;
+	color: #005086;
+	text-decoration: underline;
+}
+
+link {
+  display: none;
+}
+
+#edu{
+	text-align: right;
+	font-weight: bold;
+	margin-right: 0.5em;
+}
+
+.edu {
+	text-align: right;
+}
+
+footer{
+	text-align: center;
+	margin: 1em;
+}

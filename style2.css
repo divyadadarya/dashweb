@@ -1,6 +1,7 @@
 body{
 	background: linear-gradient(to left, #0a97b0, #ffd3e1); 
 	font: 600 'Raleway', sans-serif;
+	cursor: default;
 }
 
 .topnav{
