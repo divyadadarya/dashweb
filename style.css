@@ -28,7 +28,7 @@ img:hover{
 
 .navright {
   float: right;
-  font-size: 1.5em;
+  font-size: 1.7em;
   padding: 1em;
   padding-left: 2em;
 }
@@ -104,7 +104,15 @@ p{
 .bold{
 	font-size: 1.7em;
 	color: #005086;
+}
+
+#exp{
+	font-weight: 2em;
 	text-decoration: underline;
+}
+
+.exp{
+	font-size: 1.3em;
 }
 
 link {
@@ -113,12 +121,23 @@ link {
 
 #edu{
 	text-align: right;
-	font-weight: bold;
+	font-weight: 2em;
 	margin-right: 0.5em;
+	text-decoration: underline;
 }
 
 .edu {
 	text-align: right;
+	font-size: 1.3em;
+}
+
+.con{
+	color: #005086;
+	font-weight: bold;
+}
+
+.contact{
+	font-size: 1em;
 }
 
 footer{
