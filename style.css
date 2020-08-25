@@ -140,6 +140,14 @@ link {
 	font-size: 1em;
 }
 
+.email{
+	color: #005086;
+}
+
+.phone{
+	color: #005086;
+}
+
 footer{
 	text-align: center;
 	margin: 1em;
