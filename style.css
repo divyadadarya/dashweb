@@ -4,6 +4,14 @@ body{
 	cursor: default;
 }
 
+h1{
+	margin-left: 1.2em;
+}
+
+h1:hover{
+	font-style: italic;
+}
+
 img {
 	margin-top: 5em;
 	display: block;
@@ -12,8 +20,9 @@ img {
 }
 
 img:hover{
-	transform: rotateY(180deg);
-	perspective: 1000px;
+	content: url(SquarePic_20200826_19421081.jpg);
+	width: 300px;
+	height: 300px;
 }
 
 .topnav{
